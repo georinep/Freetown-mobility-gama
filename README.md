@@ -1,7 +1,8 @@
 # Freetown-mobility-gama
 Development for an agent-based model pilot study in GAMA simulating urban mobility scenarios using GIS and GTFS mobility data in Freetown, Sierra Leone.
-Urban Mobility ABM in GAMA
-This repository contains an Agent-Based Model (ABM) built using the GAMA platform to simulate urban mobility scenarios in Freetown. The model leverages GIS datasets, GTFS transit feeds, and derived travel delay analysis/fare data to explore potential scenarios such as transit expansion, traffic congestion, parking regulation, and street vendor management.
+Urban Mobility ABM in GAMA. 
+
+Project Deck Update: https://docs.google.com/presentation/d/1fF-7L6AmL62-9QmVp_K_17wNbMRJTMtMSySmYq8-Mtc/edit?usp=sharing
 
 Potential Project Structure
 urban-mobility-abm-gama/ │ ├── data/ - Raw and processed datasets │ ├── gis/ - Shapefiles, geopackages, and raster GIS data │ ├── gtfs/ - GTFS transit feed files (routes, shapes, stops, stop times, trips, frequencies, fare attributes, etc.) │ └── derived/ - Traffic delay analysis, fare matrices, etc. │ ├── model/ - GAMA models and sub-models │ ├── main.gaml │ └── includes/ │ ├── scripts/ - Data preprocessing scripts ├── outputs/ - Model outputs and scenario results ├── README.txt └── .gitignore
