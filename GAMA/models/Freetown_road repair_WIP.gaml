@@ -210,6 +210,11 @@ experiment road_traffic type: gui {
 			species transit_stop aspect: base ;
 			species people aspect: base ;
 			species transit_commuter aspect: base ;
+			graphics "time" {
+				draw string(current_date.hour) + "h" + string(current_date.minute) + "m"
+					 color: #white font: font("Helvetica", 25, #italic)
+					 at: {world.shape.width*0.9, world.shape.height*0.55};
+			}
 		}
 		monitor "Time of day (hours)" value: (current_date.hour + (current_date.minute / 60.0));
 		display chart_display refresh: every(10#cycles)  type: 2d { 
