@@ -17,7 +17,7 @@ global {
 	float step <- 10 #mn;
 	date starting_date <- date("2019-09-01-00-00-00");	
 	int nb_people <- 1700;
-	int nb_transit_commuters <- 3600;
+	int nb_transit_commuters <- 15000;
 	int min_work_start <- 6;
 	int max_work_start <- 8;
 	int min_work_end <- 16; 
@@ -25,7 +25,7 @@ global {
 	float min_speed <- 1.0 #km / #h;
 	float max_speed <- 5.0 #km / #h; 
 	float destroy <- 0.02;
-	int repair_time <- 2 ;
+	int repair_time <- 0 ;
 	graph the_graph;
 	
 	init {
@@ -142,7 +142,7 @@ species people skills:[moving] {
 	}
 	
 	aspect base {
-		draw circle(5) color: color border: #black;
+		draw circle(4) color: color border: #black;
 	}
 }
 
@@ -183,7 +183,7 @@ species transit_commuter skills:[moving] {
 	}
 	
 	aspect base {
-		draw circle(5) color: color border: #black;
+		draw circle(4) color: color border: #black;
 	}
 }
 
