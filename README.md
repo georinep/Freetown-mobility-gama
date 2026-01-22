@@ -27,6 +27,10 @@ The tool helps planners:
 
 ![Example Image 3](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/1%20final%20abm%20after.gif) <br><br>
 
+The model identifies streets in Freetown’s CBD likely to experience sustained and intensified pedestrian activity, highlighting corridors that may benefit from pedestrianization, traffic calming, or road space reallocation. This focus is particularly relevant in Freetown, where pedestrian congestion often overlaps with informal street vending on vehicle-oriented roads, creating mobility constraints and safety risks. The simulation integrates GIS data on road networks, building uses, public transport routes, and proposed cable car station locations, with land use simplified into residential and office functions and transit inputs capturing both formal and informal services. Time-of-day transit speeds (morning peak, off-peak, evening peak), derived from GTFS-based analysis, reflect daily variation in mobility conditions. <br><br>
+
+Pedestrians are modeled as agents with origins, destinations, and daily schedules, including residents working locally and commuters arriving via transit or the proposed cable car. Pedestrian congestion is estimated using a weighted road graph, where each street segment accumulates stress based on pedestrian use, walking distance, and time-specific transit speed classes (slow, medium, fast). Slower transit conditions increase pedestrian stress more strongly, linking observed congestion to simulated foot traffic. Outputs are visualized as red (high impact) to green (low imapct) maps and summarized through average walking travel time per kilometer, enabling comparison between baseline and future scenarios under transit expansion and urban densification. <br><br>
+
 
 **Repository Structure**
 ├── gama/
