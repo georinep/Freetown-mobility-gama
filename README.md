@@ -8,14 +8,14 @@ Urban Mobility ABM in GAMA.
 
 This project develops a pilot pedestrian mobility simulation for Freetown’s Central Business District (CBD) using GIS data and the GAMA agent-based modeling platform. It is designed as a decision-support tool to help municipal planners evaluate how transit expansion (including a proposed cable car), housing densification, and commuter growth may impact pedestrian movement through 2028.
 
-The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities. <br>
+The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities. <br />
 
 
 **Repository Structure**
 ├── gama/
 ├── dashboard/
 ├── img/
-└── README.md <br>
+└── README.md <br />
 
 
 **GAMA/**
@@ -24,7 +24,7 @@ Contains the core GAMA simulation model.
 
 -GAMA project files defining agents, behaviors, and scenarios
 
--includes/ folder with GIS input data (roads, buildings, land use, transit routes, cable car stations) <br>
+-includes/ folder with GIS input data (roads, buildings, land use, transit routes, cable car stations) <br />
 
 
 **dashboard/**
@@ -33,14 +33,14 @@ A web-based UX/UI prototype for visualizing simulation outputs.
 
 -Interactive interface for exploring scenarios and time-of-day results
 
--Includes zipped dashboard assets and zipped GeoJSON files for mapping <br>
+-Includes zipped dashboard assets and zipped GeoJSON files for mapping <br />
 
 
 **img/**
 
 -Image outputs and study references.
 
--Scenario maps and visualization outputs <br>
+-Scenario maps and visualization outputs <br />
 
 
 **Purpose**
@@ -53,7 +53,7 @@ The tool helps planners:
 
 -Explore impacts of cable car adoption, densification, and commuter growth
 
--Support evidence-based planning with limited data availability <br>
+-Support evidence-based planning with limited data availability <br />
 
 
 **Citation**
