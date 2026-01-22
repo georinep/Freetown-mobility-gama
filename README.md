@@ -4,25 +4,53 @@ Urban Mobility ABM in GAMA.
 
 ![Example Image](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm-before-after-updated.png)
 
-Potential Project Structure
-urban-mobility-abm-gama/ │ ├── data/ - Raw and processed datasets │ ├── gis/ - Shapefiles, geopackages, and raster GIS data │ ├── gtfs/ - GTFS transit feed files (routes, shapes, stops, stop times, trips, frequencies, fare attributes, etc.) │ └── derived/ - Traffic delay analysis, fare matrices, etc. │ ├── model/ - GAMA models and sub-models │ ├── main.gaml │ └── includes/ │ ├── scripts/ - Data preprocessing scripts ├── outputs/ - Model outputs and scenario results ├── README.txt └── .gitignore
+Overview
 
-Data Animation
-GTFS data was animated using Python scripts in the scripts/ directory.
-To process: python scripts/gtfs_animation.py
-Requirements: - geopandas - pandas - matplotlib - ffmpeg
-Model Overview - TBD
+This project develops a pilot pedestrian mobility simulation for Freetown’s Central Business District (CBD) using GIS data and the GAMA agent-based modeling platform. It is designed as a decision-support tool to help municipal planners evaluate how transit expansion (including a proposed cable car), housing densification, and commuter growth may impact pedestrian movement through 2028.
 
-Potential ABM can simulate interactions between:
-Agents: commuters: students, workers, vendors, tourists, etc.
-Environment: roads, public transit, points of interest, land use
-Scenarios (TBD): transit expansion, parking regulation, traffic congestion, street vendor management
-Built using the GAMA Platform: https://gama-platform.org/
-Running the Model - TBD
-Open GAMA
-Load model/main.gaml
-Select your scenario from the GUI
-Run the simulation
-Outputs will be saved in /outputs/
-Scenarios (in model/includes/scenarios/) - TBD
+The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities.
+
+Repository Structure
+├── gama/
+├── dashboard/
+├── img/
+└── README.md
+
+GAMA/
+
+Contains the core GAMA simulation model.
+
+-GAMA project files defining agents, behaviors, and scenarios
+
+-includes/ folder with GIS input data (roads, buildings, land use, transit routes, cable car stations)
+
+dashboard/
+
+A web-based UX/UI prototype for visualizing simulation outputs.
+
+-Interactive interface for exploring scenarios and time-of-day results
+
+-Includes zipped dashboard assets and zipped GeoJSON files for mapping
+
+img/
+
+-Image outputs and study references.
+
+-Scenario maps and visualization outputs
+
+Purpose
+
+The tool helps planners:
+
+Compare current and future pedestrian congestion patterns
+
+Identify streets suitable for pedestrianization or traffic calming
+
+Explore impacts of cable car adoption, densification, and commuter growth
+
+Support evidence-based planning with limited data availability
+
+Citation
+
+Taillandier, P., et al. (2019). Building, composing and experimenting complex spatial models with the GAMA platform. Geoinformatica, 23(2), 299–322. https://doi.org/10.1007/s10707-018-00339-6
 
