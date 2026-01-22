@@ -23,7 +23,7 @@ The tool helps planners:
 -Support evidence-based planning with limited data availability <br><br>
 
 
-![Example Image 2](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm%20after%20tablet.gif) <br> (Above: Planning Decision Support Tool User-Interace) <br><br>
+![Example Image 2](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm%20after%20tablet.gif) <br> (Above: Pedestrian Mobility Impact & Planning Decision Support Tool User-Interace Pilot) <br><br>
 
 ![Example Image 3](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/1%20final%20abm%20after.gif) <br> (Above: GAMA Project Model Pedestrian Mobility Simulation) <br><br> 
 
