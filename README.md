@@ -23,9 +23,9 @@ The tool helps planners:
 -Support evidence-based planning with limited data availability <br><br>
 
 
-![Example Image 2](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm%20after%20tablet.gif) <br><br>
+![Example Image 2](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm%20after%20tablet.gif) <br> (Above: Planning Decision Support Tool User-Interace) <br><br>
 
-![Example Image 3](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/1%20final%20abm%20after.gif) <br><br>
+![Example Image 3](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/1%20final%20abm%20after.gif) <br> (Above: GAMA Project Model Pedestrian Mobility Simulation) <br><br> 
 
 The model identifies streets in Freetown’s CBD likely to experience sustained and intensified pedestrian activity, highlighting corridors that may benefit from pedestrianization, traffic calming, or road space reallocation. This focus is particularly relevant in Freetown, where pedestrian congestion often overlaps with informal street vending on vehicle-oriented roads, creating mobility constraints and safety risks. The simulation integrates GIS data on road networks, building uses, public transport routes, and the proposed cable car station location, with land use simplified into residential and office functions and transit inputs capturing both formal and informal services. Time-of-day transit speeds (morning peak, off-peak, evening peak), derived from GTFS-based analysis, reflect daily variation in mobility conditions. 
 
