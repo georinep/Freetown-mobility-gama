@@ -1,14 +1,26 @@
 # Freetown-mobility-gama
 Development for an agent-based model pilot study in GAMA simulating urban mobility scenarios using GIS and GTFS mobility data in Freetown, Sierra Leone.
-Urban Mobility ABM in GAMA. 
+Urban Mobility ABM in GAMA. <br><br>
 
-![Example Image](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm-before-after-updated.png)
+![Example Image](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm-before-after-updated.png) <br><br>
 
 **Overview**
 
 This project develops a pilot pedestrian mobility simulation for Freetown’s Central Business District (CBD) using GIS data and the GAMA agent-based modeling platform. It is designed as a decision-support tool to help municipal planners evaluate how transit expansion (including a proposed cable car), housing densification, and commuter growth may impact pedestrian movement through 2028.
 
 The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities. <br><br>
+
+**Purpose**
+
+The tool helps planners:
+
+-Compare current and future pedestrian congestion patterns
+
+-Identify streets suitable for pedestrianization or traffic calming
+
+-Explore impacts of cable car adoption, densification, and commuter growth
+
+-Support evidence-based planning with limited data availability <br><br>
 
 
 **Repository Structure**
@@ -41,19 +53,6 @@ A web-based UX/UI prototype for visualizing simulation outputs.
 -Image outputs and study references.
 
 -Scenario maps and visualization outputs <br><br>
-
-
-**Purpose**
-
-The tool helps planners:
-
--Compare current and future pedestrian congestion patterns
-
--Identify streets suitable for pedestrianization or traffic calming
-
--Explore impacts of cable car adoption, densification, and commuter growth
-
--Support evidence-based planning with limited data availability <br><br>
 
 
 **Citation**
