@@ -11,19 +11,6 @@ This project develops a pilot pedestrian mobility simulation for Freetown’s Ce
 The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities.
 
 
-**Purpose**
-
-The tool helps planners:
-
--Compare current and future pedestrian congestion patterns
-
--Identify streets suitable for pedestrianization or traffic calming
-
--Explore impacts of cable car adoption, densification, and commuter growth
-
--Support evidence-based planning with limited data availability
-
-
 **Repository Structure**
 ├── gama/
 ├── dashboard/
@@ -55,6 +42,18 @@ A web-based UX/UI prototype for visualizing simulation outputs.
 
 -Scenario maps and visualization outputs
 
+
+**Purpose**
+
+The tool helps planners:
+
+-Compare current and future pedestrian congestion patterns
+
+-Identify streets suitable for pedestrianization or traffic calming
+
+-Explore impacts of cable car adoption, densification, and commuter growth
+
+-Support evidence-based planning with limited data availability
 
 
 **Citation**
