@@ -8,7 +8,11 @@ Urban Mobility ABM in GAMA. <br><br>
 
 This project develops a pilot pedestrian mobility simulation for Freetown’s Central Business District (CBD) using GIS data and the GAMA agent-based modeling platform. It is designed as a decision-support tool to help municipal planners evaluate how transit expansion (including a proposed cable car), housing densification, and commuter growth may impact pedestrian movement through 2028.
 
-The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities. <br><br>
+The model simulates daily pedestrian flows across different times of day, identifies streets likely to experience increased pedestrian pressure, and supports scenario testing under data and budget constraints typical of resource-limited cities. The pilot study focuses on the mobility behavior of professional workers, including those who both live and work in the CBD and those who commute into the CBD from designated origin–destination pairs linking residential areas, office locations, and transit nodes.  <br><br>
+
+![Example Image](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm-before-after-updated.png](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm%20after%20tablet.gif) <br><br>
+
+![Example Image](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm-before-after-updated.png](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/1%20final%20abm%20after.gif) <br><br>
 
 **Purpose**
 
