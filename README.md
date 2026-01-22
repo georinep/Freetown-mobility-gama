@@ -45,7 +45,7 @@ Contains the core GAMA simulation model.
 
 -GAMA project files defining agents, behaviors, and scenarios
 
--Includes/ folder with GIS input data (roads, buildings, land use, transit routes, cable car stations) <br><br>
+-Includes/ folder with GIS input data (roads, buildings, land use, transit routes, transit stops, cable car station) <br><br>
 
 
 **dashboard/**
