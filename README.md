@@ -16,7 +16,8 @@ Repository Structure
 ├── img/
 └── README.md
 
-GAMA/
+
+(**GAMA/**)
 
 Contains the core GAMA simulation model.
 
@@ -24,7 +25,8 @@ Contains the core GAMA simulation model.
 
 -includes/ folder with GIS input data (roads, buildings, land use, transit routes, cable car stations)
 
-dashboard/
+
+(**dashboard/**)
 
 A web-based UX/UI prototype for visualizing simulation outputs.
 
@@ -32,25 +34,28 @@ A web-based UX/UI prototype for visualizing simulation outputs.
 
 -Includes zipped dashboard assets and zipped GeoJSON files for mapping
 
-img/
+
+(**img/**)
 
 -Image outputs and study references.
 
 -Scenario maps and visualization outputs
 
-Purpose
+
+(**Purpose**)
 
 The tool helps planners:
 
-Compare current and future pedestrian congestion patterns
+-Compare current and future pedestrian congestion patterns
 
-Identify streets suitable for pedestrianization or traffic calming
+-Identify streets suitable for pedestrianization or traffic calming
 
-Explore impacts of cable car adoption, densification, and commuter growth
+-Explore impacts of cable car adoption, densification, and commuter growth
 
-Support evidence-based planning with limited data availability
+-Support evidence-based planning with limited data availability
 
-Citation
+
+(**Citation**)
 
 Taillandier, P., et al. (2019). Building, composing and experimenting complex spatial models with the GAMA platform. Geoinformatica, 23(2), 299–322. https://doi.org/10.1007/s10707-018-00339-6
 
