@@ -1,6 +1,5 @@
 # Freetown-mobility-gama
-Development for an agent-based model pilot study in GAMA simulating urban mobility scenarios using GIS and GTFS mobility data in Freetown, Sierra Leone.
-Urban Mobility ABM in GAMA. <br><br>
+Development for an agent-based model pilot study in GAMA simulating urban mobility scenarios using GIS and General Transit Feed Specification (GTFS) mobility data in Freetown, Sierra Leone. <br><br>
 
 ![Example Image](https://github.com/georinep/Freetown-mobility-gama/blob/main/img/abm-before-after-updated.png) <br><br>
 
