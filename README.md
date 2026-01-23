@@ -49,7 +49,7 @@ Contains the core GAMA simulation model.
 
 **dashboard/**
 
-A web-based UX/UI prototype for visualizing simulation outputs.
+Contains a web-based UX/UI prototype for visualizing simulation outputs.
 
 -Interactive interface for exploring scenarios and time-of-day results
 
